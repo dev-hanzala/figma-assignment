@@ -11,7 +11,7 @@ const Home = () => {
           An example of intricate workmanship and detail, elegant necklaces and
           long and short chains form a part of our desirable collection.
         </p>
-        <div className="bg-[#A29875] text-white flex justify-center items-center rounded-lg w-[248px] h-[50] text-[26px]/[32px] font-libre-bodoni font-medium">
+        <div className="bg-[#A29875] text-white flex justify-center items-center rounded-lg w-[248px] h-[50px] text-[26px]/[32px] font-libre-bodoni font-medium">
           <p>Explore Now</p>
         </div>
       </div>
