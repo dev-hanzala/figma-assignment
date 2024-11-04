@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        rye: ["Rye"],
+        "libre-bodoni": ["Libre Bodoni"],
       },
     },
   },

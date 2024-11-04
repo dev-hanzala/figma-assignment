@@ -2,27 +2,26 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div className="flex space-x-[98px] mt-[95px] ml-[62px] mr-[47px] mb-[177px]">
-      <div className="w-1/2 mt-[61px]">
-        <h1 className="text-black font-bold text-[44px]/[53px] w-[548px]">
-          Welcome To Our Website
+    <div className="flex justify-center mt-28 mx-28 space-x-32">
+      <div className="flex-1">
+        <h1 className="font-libre-bodoni font-bold text-[#000000] text-[38px] mt-[46px] mr-60 mb-12">
+          IMPECCABLE CRAFTSMANSHIP AND FINESSE
         </h1>
-        <p className="text-[32px]/[38.73px] pl-[6px] font-normal w-[571px] mt-[23px]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry&apos;s standard
+        <p className="font-libre-bodoni font-medium text-[#787054] text-[28px] mb-14">
+          An example of intricate workmanship and detail, elegant necklaces and
+          long and short chains form a part of our desirable collection.
         </p>
-        <div className="bg-[#121212] w-[237px] h-[66px] mt-16">
-          <p className="text-white text-[28px]/[33.89px] py-4 px-[43px]">Contact US</p>
+        <div className="bg-[#A29875] text-white flex justify-center items-center rounded-lg w-60 h-12 text-2xl font-libre-bodoni font-medium">
+          <p>Explore Now</p>
         </div>
       </div>
-      <div className="w-1/2">
-        <Image
-          width={502}
-          height={465}
-          alt="hero image"
-          src="/images/hero.png"
-        />
-      </div>
+      <Image
+        src="/images/hero.png"
+        alt="Hero Image"
+        width={400}
+        height={560}
+        className="rounded-tl-[120px] rounded-br-[120px]"
+      />
     </div>
   );
 };
